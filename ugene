@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugene Sanjit - Data Analyst & Travel Enthusiast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            font-family: 'Georgia', serif;
+        }
+        .about, .portfolio, .contact, .blog {
+            margin: 20px 0;
+            border-bottom: 1px solid #000;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ugene Sanjit</h1>
+        <p>Data Analyst | Travel Enthusiast | Nomad</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ugene Sanjit, a data analyst with a passion for uncovering insights from data. When I'm not deep in data, you can find me exploring new places, capturing moments, and living the life of a nomad. My journey blends the analytical with the artistic, and I'm always eager to take on new challenges that come my way.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some projects I've worked on:</p>
+        <!-- Add your portfolio items here -->
+        <img src="your-project-image1.jpg" alt="Project 1">
+        <img src="your-project-image2.jpg" alt="Project 2">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Interested in working together or just want to say hello? Reach out to me!</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Stay tuned for my latest adventures and insights!</p>
+        <!-- Add your blog posts here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ugene Sanjit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
